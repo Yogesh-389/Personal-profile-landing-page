@@ -1,0 +1,225 @@
+/*************************************TAG SELECTORS****************************/
+
+
+span {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5rem;
+  width: 50%;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Lato', sans-serif;
+}
+hr{
+  width: 20%;
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  margin: 100px auto;
+}
+p{
+  line-height: 2;
+}
+a{
+  color: #11999E;
+  font-family: 'Lato', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:white;
+}
+/*********************************CLASS SELECTORS******************************/
+/******************************************************************************/
+/***********************************TOP CONTAINERS*****************************/
+
+.Top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.fixed-image{
+  top: 12px;
+    border-radius: 50%;
+    width: 16%;
+    position: fixed;
+    left: 28px;
+}
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+/*****************************************************************************/
+/*******************************MIDDLE CONTAINERS*****************************/
+.middle-container{
+  margin: 100px auto;
+}
+                          /**********PROFILE DIV***********/
+.profile{
+  /*margin-bottom: 100px;*/
+}
+.Yogesh-image{
+  border-radius:50%;
+  width: 200px;
+  margin-bottom: 30px;
+}
+.profile-description{
+  width: 30%;
+  margin: auto;
+}
+                       /***********SKILLS DIV************/
+.skills{
+  /*padding-top: 100px;*/
+}
+.FED{
+  border-radius: 50%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+/*  margin-bottom: 30px;
+  margin-top: 20px;*/
+}
+.DSA{
+  border-radius: 50%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+
+}
+.CPP{
+  border-radius: 50%;
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+/************seperation horizontal line for dsa skill and cntact me div**/
+.seperation{
+  margin-bottom: 0;
+    margin-top: 200px;
+}
+
+                  /*************CONTACT-ME DIV*************/
+
+.contact-me{
+  margin-top: 100px;
+}
+.btn{
+  background: #11cdd4;
+
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+
+  -webkit-border-radius: 8;
+
+  -moz-border-radius: 8;
+
+  border-radius: 8px;
+
+  font-family: 'Lato', sans-serif;
+
+  color: #ffffff;
+
+  font-size: 20px;
+
+  padding: 10px 20px 10px 20px;
+
+  text-decoration: none;
+
+}
+
+.btn:hover{
+
+  background: #30e3cb;
+
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+
+  text-decoration: none;
+}
+.contact-me-description{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+/******************************************************************************/
+/**********************************BOTTOM CONTAINERS***************************/
+.bottom-container{
+background-color: #66BFBF;
+height: 100px;
+padding: 50px 0 20px;
+}
+.footer-link{
+  color: #11999E;
+}
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.Insta-logo{
+  position: absolute;
+    right: 678px;
+    top: 2853px;
+    width: 37px;
+}
+.LinkedIn-logo{
+  position: absolute;
+    right: 800px;
+    top: 2855px;
+    width: 24px;
+}
+.Git-hub-logo{
+  position: absolute;
+    right: 592px;
+    top: 2856px;
+    width: 24px;
+}
+/******************************************************************************/
